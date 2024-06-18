@@ -1,0 +1,248 @@
+/* Styling for homepage||index page */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    /* padding: 1rem 0; */
+  }
+.nav-style {
+    display: flex; 
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  .list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .list li {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 4px;
+  }
+  
+  .primary-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+
+  .primary-btn:hover{
+    background-color: transparent;
+    border: 1px solid #333;
+    color: black;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .list li {
+      font-size: 0.8rem;
+    }
+  }
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+
+.post-head{
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title-text{
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2980b9;
+}
+
+/* styling for the form || create post page */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  display: block;
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.invalid-feedback {
+  display: none;
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.form-control.is-invalid + .invalid-feedback {
+  display: block;
+}
+
+.btn-primary {
+  background-color: #3097d1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.back:hover{
+  background-color: #999;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+/* Specific Styles */
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group.has-rich-text {
+  margin-bottom: 30px;
+}
+
+#content {
+  height: 200px;
+}
+
+/* styling for the content of homepage */
+.post-item {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.post-item h2 {
+  margin-bottom: 10px;
+}
+
+.post-item p {
+  margin-bottom: 5px;
+}
+
+.post-item a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post-item a:hover {
+  color: #007bff;
+}
+.title-content{
+  font-weight: bold;
+}
+/* Post specific styles */
+.post {
+  margin-bottom: 40px;
+}
+
+.post .content {
+  margin-top: 20px;
+  color: #444;
+  line-height: 1.8;
+}
+
+.post .content p {
+  margin-bottom: 15px;
+}
+
+.post a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post .title-page{
+  color: #2980b9;
+  font-weight: 700;
+  font-size: 1.5rem;
+
+}
+
+/* Button styles */
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a.button:hover {
+  background-color: #0056b3;
+}
+
+.title-comment{
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #0056b3;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .container {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 2em;
+  }
+
+  p {
+      font-size: 1em;
+  }
+}
